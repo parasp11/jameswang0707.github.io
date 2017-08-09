@@ -9,14 +9,14 @@ body {
     font-family: 'Open Sans', sans-serif;
     color:#fff;
     font-size:16pt;
-    background: url(https://github.com/ray-cw/ray-cw.github.io/blob/master/img/sand.jpg); 
+    background: url(http://emojination.xyz/wp-content/uploads/2016/07/emojis.png); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-#body {
+body {
     width:1500px;
     margin: 0 auto;
 }
@@ -27,7 +27,6 @@ h1 {
     color: #fff;
     text-shadow: 2px 2px #000;
 }
-
 h2 {
     font-family: 'Roboto', sans-serif;
     font-size:28pt;
@@ -54,6 +53,7 @@ h5 {
     font-size:20pt;
     color: #000;
     margin-top:10px;
+    text-align: center;
 }
 
 p {
@@ -63,14 +63,14 @@ p {
     font-family: 'Roboto Slab', serif;
 }
 
-#vision {
+vision {
     background: url(img/vacation.jpg) no-repeat top 145px right, 
                 url(img/singapore.jpg) no-repeat bottom 160px right, rgba(0,0,0,0.5); 
     border-radius: 50px;
     background-size: 600px auto;
 }
 
-#reviews {
+reviews {
     background: url(img/isaac.jpeg) no-repeat bottom 145px center, rgba(0,0,0,0.5);
     background-size: 1000px auto;
 }
@@ -180,7 +180,7 @@ splashtext {
     transition-duration: 0.4s;
     border-radius: 8px;
     font-weight: bold;
-    left:50%;
+    margin: 0 auto;
 }
 
 .button:hover {
