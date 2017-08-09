@@ -180,7 +180,8 @@ splashtext {
     transition-duration: 0.4s;
     border-radius: 8px;
     font-weight: bold;
-    margin: 0 auto;
+    margin: 100px 650px;
+    position:relative;
 }
 
 .button:hover {
