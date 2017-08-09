@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:"Decotech TL";
+    src:url(decotech_tl.ttf);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+    font-size:16pt;
+    background: url(https://github.com/ray-cw/ray-cw.github.io/blob/master/img/sand.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#body {
+    width:1500px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size:40pt;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size:28pt;
+    color: #fff;
+}
+
+h4 {
+    font-family: 'Decotech TL';
+    font-size:80pt;
+    letter-spacing: 12px;
+    color: #000;
+    margin-bottom:10px;
+    margin-top: 50px;
+    text-shadow: 2px 2px #000;
+    text-align: center;
+}
+
+iframe {
+    border-radius: 30px;
+}
+
+h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size:20pt;
+    color: #000;
+    margin-top:10px;
+}
+
+p {
+    width:55%;
+    text-align:justify;
+    font-size:20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#vision {
+    background: url(img/vacation.jpg) no-repeat top 145px right, 
+                url(img/singapore.jpg) no-repeat bottom 160px right, rgba(0,0,0,0.5); 
+    border-radius: 50px;
+    background-size: 600px auto;
+}
+
+#reviews {
+    background: url(img/isaac.jpeg) no-repeat bottom 145px center, rgba(0,0,0,0.5);
+    background-size: 1000px auto;
+}
+
+/* Navigation */
+
+nav ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    font-family: 'Decotech TL';
+    font-size:40pt;
+    font-weight: normal;
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 20%;
+    width: calc(100% / 4);
+    box-sizing: border-box;
+}
+
+nav ul li:first-child {
+    border-left: none;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 10px 0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #ffa;
+}
+
+a:hover {
+    color: #ff5;
+}
+
+.section {
+    min-height:1000px;
+    width:100%;
+    box-sizing:border-box;
+    border: 40px solid transparent;
+    position: relative;
+    background: rgba(0,0,0,0.5);
+    margin: 20px 0px 0px 20px;
+    border-radius: 50px;
+}
+
+
+
+
+.bottomMenu {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    text-align:right;
+    box-sizing: border-box;
+    border-right:10px solid transparent;
+    border-bottom:10px solid transparent;
+    z-index: 1;
+}
+
+splash {
+    text-align:center;
+    background-repeat:no-repeat;
+    background-position: center;
+    background: none;
+}
+
+splashtext {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    height: 20%;
+    width: 50%;
+    margin: -10% 0 0 -25%;
+    text-align:center;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #df4556;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    font-weight: bold;
+    left:50%;
+}
+
+.button:hover {
+    background-color: #df4556; 
+    color: white;
+}
